@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simon - Personal Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  </head>
+
+  <body>
+    <header class="flex justify-between w-full h-8 bg-black px-2">
+      <div class="flex text-base items-center text-slate-200 font-bold">
+        Simone
+      </div>
+      <div class="flex">
+        <ul
+          class="flex text-[0.5rem] gap-4 justify-center items-center text-slate-200 cursor-pointer transition delay-100"
+        >
+          <li class="hover:text-[#20c997]">Home</li>
+          <li class="hover:text-[#20c997]">About</li>
+          <li class="hover:text-[#20c997]">What I Do</li>
+          <li class="hover:text-[#20c997]">Resume</li>
+          <li class="hover:text-[#20c997]">Portfolio</li>
+          <li class="hover:text-[#20c997]">client</li>
+          <li class="hover:text-[#20c997]">contact</li>
+        </ul>
+      </div>
+      <div class="flex justify-center items-center">
+        <ul class="gap-3 cursor-pointer text-slate-200 p-1">
+          <i class="fa-brands fa-twitter hover:text-sky-500"></i>
+          <i class="fa-brands fa-facebook-f hover:text-blue-700"></i>
+          <i class="fa-solid fa-basketball hover:text-orange-500"></i>
+        </ul>
+      </div>
+    </header>
+    <div
+      class="flex flex-col gap-5 justify-center items-center bg-[url('./imgs/cabin-007.jpg')] h-screen bg-cover bg-no-repeat"
+    >
+      <p class="text-xl font-medium text-slate-200 z-10">welcome</p>
+      <div id="app" class="text-slate-200 font-bold text-2xl"></div>
+
+      <p class="text-xs text-slate-200">based in Los Angeles, California.</p>
+      <button
+        class="hover:bg-[#20c997] hover:text-slate-200 rounded-3xl px-5 py-[0.3rem] text-xs justify-center items-center outline outline-1 outline-[#20c997] text-[#20c997] transition delay-100"
+      >
+        Hire Me
+      </button>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
