@@ -152,3 +152,60 @@ function calculateCircleArea() {
 
 calculateCircleArea();
 */
+
+//DAY 3
+
+/*
+task1 
+
+function checkTwoParams() {
+    if (arguments.length !== 2) {
+        throw new Error("Function requires exactly 2 parameters.");
+    }
+    return "Function called with two parameters.";
+}
+
+try {
+    console.log(checkTwoParams(5, 10)); 
+    console.log(checkTwoParams(5)); 
+} catch (error) {
+    console.error("Error:", error.message);
+}
+*/
+
+/*
+task 2
+
+function addNumbers() {
+    let sum = 0;
+    for (let i = 0; i < arguments.length; i++) {
+        if (typeof arguments[i] !== "number") {
+            throw new Error("All parameters must be numbers.");
+        }
+        sum += arguments[i];
+    }
+    return sum;
+}
+
+try {
+    console.log(addNumbers(5, 10, 15));
+    console.log(addNumbers(5, "10", 15)); 
+} catch (error) {
+    console.error("Error:", error.message);
+}
+*/
+
+/*
+task 3
+function reverseParams() {
+    let paramsArray = Array.from(arguments);
+    return paramsArray.reverse();
+}
+
+try {
+    console.log(reverseParams(1, 2, 3, 4)); 
+    console.log(reverseParams("a", "b", "c")); 
+} catch (error) {
+    console.error("Error:", error.message);
+}
+*/
